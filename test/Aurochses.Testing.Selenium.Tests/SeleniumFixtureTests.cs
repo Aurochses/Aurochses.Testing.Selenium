@@ -16,7 +16,7 @@ namespace Aurochses.Testing.Selenium.Tests
         }
 
         [Fact]
-        public void GetUrl_IsValid_WhenEnvironmentIsTest()
+        public void GetUrl_IsValid_WhenEnvironmentIsDevelopment()
         {
             // Arrange
             var currentAspNetCoreEnvironment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");

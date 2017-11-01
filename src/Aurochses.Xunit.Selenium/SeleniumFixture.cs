@@ -9,12 +9,12 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Remote;
 
-namespace Aurochses.Testing.Selenium
+namespace Aurochses.Xunit.Selenium
 {
     /// <summary>
     /// Selenium Fixture
     /// </summary>
-    /// <seealso cref="Aurochses.Testing.ConfigurationFixture" />
+    /// <seealso cref="Aurochses.Xunit.ConfigurationFixture" />
     /// <seealso cref="System.IDisposable" />
     public class SeleniumFixture : ConfigurationFixture, IDisposable
     {

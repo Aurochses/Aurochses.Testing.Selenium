@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading;
-using Aurochses.Testing;
 using Microsoft.Extensions.PlatformAbstractions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -15,7 +14,7 @@ namespace Aurochses.Xunit.Selenium
     /// <summary>
     /// Selenium Fixture
     /// </summary>
-    /// <seealso cref="Aurochses.Testing.ConfigurationFixture" />
+    /// <seealso cref="Aurochses.Xunit.ConfigurationFixture" />
     /// <seealso cref="System.IDisposable" />
     public class SeleniumFixture : ConfigurationFixture, IDisposable
     {

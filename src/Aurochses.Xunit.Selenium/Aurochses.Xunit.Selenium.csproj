@@ -12,6 +12,9 @@
     <RepositoryUrl>https://github.com/Aurochses/Aurochses.Xunit.Selenium</RepositoryUrl>
     <PackageTags>Test Unit xunit Selenium</PackageTags>
     <Version>1.2.0</Version>
+
+    <!-- Required in both test/product projects. This is a temporary workaround for https://github.com/Microsoft/vstest/issues/800 -->
+    <DebugType>Full</DebugType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -27,7 +30,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aurochses.Testing" Version="1.2.1" />
+    <PackageReference Include="Aurochses.Xunit" Version="1.2.2" />
     <PackageReference Include="CoreCompat.Selenium.WebDriver" Version="3.4.0-beta001" />
   </ItemGroup>
 

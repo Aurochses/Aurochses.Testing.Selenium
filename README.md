@@ -1,11 +1,12 @@
-# Aurochses Testing Selenium
+# Aurochses Xunit Selenium
 
-Aurochses Testing Selenium is a library for creating xUnit tests for Selenium.
+Aurochses Xunit Selenium is a library for creating xUnit tests for Selenium.
 
 ## NuGet
 
-[![NuGet](https://img.shields.io/nuget/v/Aurochses.Testing.Selenium.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Testing.Selenium)
-[![NuGet](https://img.shields.io/nuget/dt/Aurochses.Testing.Selenium.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Testing.Selenium)
+[![NuGet](https://img.shields.io/nuget/v/Aurochses.Xunit.Selenium.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.Selenium)
+[![NuGet](https://img.shields.io/nuget/dt/Aurochses.Xunit.Selenium.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.Selenium)
+[![NuGet Status](http://nugetstatus.com/Aurochses.Xunit.Selenium.png)](http://nugetstatus.com/packages/Aurochses.Xunit.Selenium)
 
 ## Builds
 

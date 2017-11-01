@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Aurochses.Testing.Selenium\Aurochses.Testing.Selenium.csproj" />
+    <ProjectReference Include="..\..\src\Aurochses.Xunit.Selenium\Aurochses.Xunit.Selenium.csproj" />
   </ItemGroup>
 
   <ItemGroup>

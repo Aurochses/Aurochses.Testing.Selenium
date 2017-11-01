@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace Aurochses.Testing.Selenium.Tests
+namespace Aurochses.Xunit.Selenium.Tests
 {
     public class SeleniumFixtureTests
     {

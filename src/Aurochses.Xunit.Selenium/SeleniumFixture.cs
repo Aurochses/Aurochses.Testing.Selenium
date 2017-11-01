@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading;
+using Aurochses.Testing;
 using Microsoft.Extensions.PlatformAbstractions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -9,7 +10,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Remote;
 
-namespace Aurochses.Testing.Selenium
+namespace Aurochses.Xunit.Selenium
 {
     /// <summary>
     /// Selenium Fixture

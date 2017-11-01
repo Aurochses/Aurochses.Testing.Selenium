@@ -1,4 +1,4 @@
-﻿namespace Aurochses.Testing.Selenium
+﻿namespace Aurochses.Xunit.Selenium
 {
     /// <summary>
     /// Selenium WebDriver Type

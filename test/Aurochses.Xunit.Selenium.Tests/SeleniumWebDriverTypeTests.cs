@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using Xunit;
 
-namespace Aurochses.Testing.Selenium.Tests
+namespace Aurochses.Xunit.Selenium.Tests
 {
     public class SeleniumWebDriverTypeTests
     {

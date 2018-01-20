@@ -1,35 +1,20 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
 
 namespace Aurochses.Xunit.Selenium.Tests
 {
     public class SeleniumFixtureTests
     {
         [Fact]
-        public void GetUrl_IsValid_WhenEnvironmentIsNull()
-        {
-            // Arrange & Act
-            var fixture = new SeleniumFixture();
-
-            // Assert
-            Assert.Equal("http://localhost:8000/test", fixture.GetUrl("/test"));
-        }
-
-        [Fact]
-        public void GetUrl_IsValid_WhenEnvironmentIsDevelopment()
+        public void GetUrl_Success()
         {
             // Arrange
-            var currentAspNetCoreEnvironment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-
-            Environment.SetEnvironmentVariable("ASPNETCORE_ENVIRONMENT", "Development");
+            const string path = "/test";
 
             // Act
             var fixture = new SeleniumFixture();
 
-            Environment.SetEnvironmentVariable("ASPNETCORE_ENVIRONMENT", currentAspNetCoreEnvironment);
-
             // Assert
-            Assert.Equal("http://www.example.com/test", fixture.GetUrl("/test"));
+            Assert.Equal(fixture.Configuration["Domain"] + path, fixture.GetUrl(path));
         }
 
         // todo: test Dispose

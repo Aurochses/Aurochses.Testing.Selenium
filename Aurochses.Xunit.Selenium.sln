@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A72623B9-B3C1-44CE-AD33-4B13A7FE510A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA73FF10-7CB1-443F-B171-8711625E6E57}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A1E8EC2B-F94A-4C57-93BD-99CAEE16826B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5D2E5065-2E67-47A8-8CBA-C666BB5E82AA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.Xunit.Selenium", "src\Aurochses.Xunit.Selenium\Aurochses.Xunit.Selenium.csproj", "{DB7AC3BC-29D1-4DC0-8B6C-E1D69739E622}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Xunit.Selenium", "src\Aurochses.Xunit.Selenium\Aurochses.Xunit.Selenium.csproj", "{88A2234F-D871-4B8D-BF81-9DFBFC60DC1E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.Xunit.Selenium.Tests", "test\Aurochses.Xunit.Selenium.Tests\Aurochses.Xunit.Selenium.Tests.csproj", "{8E0166DC-A4DE-4ACA-A4AF-2CC3EFA7A6C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Xunit.Selenium.Tests", "test\Aurochses.Xunit.Selenium.Tests\Aurochses.Xunit.Selenium.Tests.csproj", "{F2209B72-3A9A-4703-BE04-D970BD3D6374}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,23 +17,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB7AC3BC-29D1-4DC0-8B6C-E1D69739E622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB7AC3BC-29D1-4DC0-8B6C-E1D69739E622}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB7AC3BC-29D1-4DC0-8B6C-E1D69739E622}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB7AC3BC-29D1-4DC0-8B6C-E1D69739E622}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8E0166DC-A4DE-4ACA-A4AF-2CC3EFA7A6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E0166DC-A4DE-4ACA-A4AF-2CC3EFA7A6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E0166DC-A4DE-4ACA-A4AF-2CC3EFA7A6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E0166DC-A4DE-4ACA-A4AF-2CC3EFA7A6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A2234F-D871-4B8D-BF81-9DFBFC60DC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A2234F-D871-4B8D-BF81-9DFBFC60DC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A2234F-D871-4B8D-BF81-9DFBFC60DC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A2234F-D871-4B8D-BF81-9DFBFC60DC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2209B72-3A9A-4703-BE04-D970BD3D6374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2209B72-3A9A-4703-BE04-D970BD3D6374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2209B72-3A9A-4703-BE04-D970BD3D6374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2209B72-3A9A-4703-BE04-D970BD3D6374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DB7AC3BC-29D1-4DC0-8B6C-E1D69739E622} = {A72623B9-B3C1-44CE-AD33-4B13A7FE510A}
-		{8E0166DC-A4DE-4ACA-A4AF-2CC3EFA7A6C3} = {A1E8EC2B-F94A-4C57-93BD-99CAEE16826B}
+		{88A2234F-D871-4B8D-BF81-9DFBFC60DC1E} = {BA73FF10-7CB1-443F-B171-8711625E6E57}
+		{F2209B72-3A9A-4703-BE04-D970BD3D6374} = {5D2E5065-2E67-47A8-8CBA-C666BB5E82AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5912EC37-624F-4B95-A7BD-7CBF4CE9B6F4}
+		SolutionGuid = {98421447-90F4-4AE5-8D12-9056316A757A}
 	EndGlobalSection
 EndGlobal

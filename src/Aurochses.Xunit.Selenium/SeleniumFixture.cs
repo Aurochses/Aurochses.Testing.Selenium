@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading;
-using Microsoft.Extensions.PlatformAbstractions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
@@ -57,9 +56,7 @@ namespace Aurochses.Xunit.Selenium
         /// <returns></returns>
         public IWebDriver GetWebDriver(SeleniumWebDriverType type)
         {
-            IWebDriver webDriver;
-
-            if (!_webDrivers.TryGetValue(type, out webDriver))
+            if (!_webDrivers.TryGetValue(type, out var webDriver))
             {
                 webDriver = CreateWebDriver(type);
 
@@ -79,7 +76,7 @@ namespace Aurochses.Xunit.Selenium
                     var edgeOptions = new EdgeOptions();
                     edgeOptions.AddAdditionalCapability(CapabilityType.AcceptSslCertificates, true);
 
-                    var edgeDriverService = EdgeDriverService.CreateDefaultService(PlatformServices.Default.Application.ApplicationBasePath);
+                    var edgeDriverService = EdgeDriverService.CreateDefaultService(AppContext.BaseDirectory);
                     webDriver = new ThreadLocal<IWebDriver>(() => new EdgeDriver(edgeDriverService, edgeOptions)).Value;
                     break;
                 case SeleniumWebDriverType.Firefox:
@@ -93,21 +90,21 @@ namespace Aurochses.Xunit.Selenium
                         Profile = firefoxProfile
                     };
 
-                    var firefoxDriverService = FirefoxDriverService.CreateDefaultService(PlatformServices.Default.Application.ApplicationBasePath);
+                    var firefoxDriverService = FirefoxDriverService.CreateDefaultService(AppContext.BaseDirectory);
                     webDriver = new ThreadLocal<IWebDriver>(() => new FirefoxDriver(firefoxDriverService, firefoxOptions, TimeSpan.FromSeconds(60))).Value;
                     break;
                 case SeleniumWebDriverType.GoogleChrome:
                     var chromeOptions = new ChromeOptions();
                     chromeOptions.AddArgument("--ignore-certificate-errors");
 
-                    var chromeDriverService = ChromeDriverService.CreateDefaultService(PlatformServices.Default.Application.ApplicationBasePath);
+                    var chromeDriverService = ChromeDriverService.CreateDefaultService(AppContext.BaseDirectory);
                     webDriver = new ThreadLocal<IWebDriver>(() => new ChromeDriver(chromeDriverService, chromeOptions)).Value;
                     break;
                 case SeleniumWebDriverType.InternetExplorer:
                     var internetExplorerOptions = new InternetExplorerOptions();
                     internetExplorerOptions.AddAdditionalCapability(CapabilityType.AcceptSslCertificates, true);
 
-                    var internetExplorerDriverService = InternetExplorerDriverService.CreateDefaultService(PlatformServices.Default.Application.ApplicationBasePath);
+                    var internetExplorerDriverService = InternetExplorerDriverService.CreateDefaultService(AppContext.BaseDirectory);
                     webDriver = new ThreadLocal<IWebDriver>(() => new InternetExplorerDriver(internetExplorerDriverService, internetExplorerOptions)).Value;
                     break;
                 default:

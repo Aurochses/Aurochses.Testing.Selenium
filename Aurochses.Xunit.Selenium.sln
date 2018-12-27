@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA73FF10-7CB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5D2E5065-2E67-47A8-8CBA-C666BB5E82AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Xunit.Selenium", "src\Aurochses.Xunit.Selenium\Aurochses.Xunit.Selenium.csproj", "{88A2234F-D871-4B8D-BF81-9DFBFC60DC1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.Xunit.Selenium", "src\Aurochses.Xunit.Selenium\Aurochses.Xunit.Selenium.csproj", "{88A2234F-D871-4B8D-BF81-9DFBFC60DC1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Xunit.Selenium.Tests", "test\Aurochses.Xunit.Selenium.Tests\Aurochses.Xunit.Selenium.Tests.csproj", "{F2209B72-3A9A-4703-BE04-D970BD3D6374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.Xunit.Selenium.Tests", "test\Aurochses.Xunit.Selenium.Tests\Aurochses.Xunit.Selenium.Tests.csproj", "{F2209B72-3A9A-4703-BE04-D970BD3D6374}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

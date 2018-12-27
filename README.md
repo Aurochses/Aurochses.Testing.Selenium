@@ -1,18 +1,18 @@
-# Aurochses Xunit Selenium
+# Aurochses.Xunit.Selenium
 
-Aurochses Xunit Selenium is a library for creating xUnit tests for Selenium.
+Aurochses.Xunit.Selenium is a library for creating xUnit tests for Selenium.
 
 ## NuGet
+[![NuGet Version](https://img.shields.io/nuget/v/Aurochses.Xunit.Selenium.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.Selenium)
+[![NuGet Dependencies](https://img.shields.io/librariesio/release/nuget/Aurochses.Xunit.Selenium.svg?style=flat-square)](https://libraries.io/nuget/Aurochses.Xunit.Selenium)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Aurochses.Xunit.Selenium.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.Selenium)
 
-[![NuGet](https://img.shields.io/nuget/v/Aurochses.Xunit.Selenium.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.Selenium)
-[![NuGet](https://img.shields.io/nuget/dt/Aurochses.Xunit.Selenium.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.Selenium)
-[![NuGet Status](http://nugetstatus.com/Aurochses.Xunit.Selenium.png)](http://nugetstatus.com/packages/Aurochses.Xunit.Selenium)
+## Azure DevOps
 
-## Builds
+[![Build](https://img.shields.io/azure-devops/release/Aurochses/61cd8e26-670f-4d15-9b53-5e73a476a30f/8/8.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_release?definitionId=8)
 
-Type            | Status 
-----------------|--------
-CI (develop)    | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/268.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=268)
-CI (pre-master) | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/269.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=269)
-PR (latest)     | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/270.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=270)
-NuGet           | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/271.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=271)
+Branch     | Build | Tests | Coverage
+-----------|-------|-------|----------
+develop | [![Build](https://img.shields.io/azure-devops/build/Aurochses/Aurochses.GitHub/387/develop.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=387&branchName=develop) | [![Tests](https://img.shields.io/azure-devops/tests/Aurochses/Aurochses.GitHub/387/develop.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=387&branchName=develop) | [![Coverage](https://img.shields.io/azure-devops/coverage/Aurochses/Aurochses.GitHub/387/develop.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=387&branchName=develop)
+pre-master | [![Build](https://img.shields.io/azure-devops/build/Aurochses/Aurochses.GitHub/387/pre-master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=387&branchName=pre-master) | [![Tests](https://img.shields.io/azure-devops/tests/Aurochses/Aurochses.GitHub/387/pre-master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=387&branchName=pre-master) | [![Coverage](https://img.shields.io/azure-devops/coverage/Aurochses/Aurochses.GitHub/387/pre-master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=387&branchName=pre-master)
+master | [![Build](https://img.shields.io/azure-devops/build/Aurochses/Aurochses.GitHub/387/master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=387&branchName=master) | [![Tests](https://img.shields.io/azure-devops/tests/Aurochses/Aurochses.GitHub/387/master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=387&branchName=master) | [![Coverage](https://img.shields.io/azure-devops/coverage/Aurochses/Aurochses.GitHub/387/master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=387&branchName=master)

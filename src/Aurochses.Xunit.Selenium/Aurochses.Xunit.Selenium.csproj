@@ -15,6 +15,10 @@
     <PackageTags>Test Unit xUnit Selenium</PackageTags>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Aurochses.Xunit" Version="2.2.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />

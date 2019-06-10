@@ -18,36 +18,16 @@ namespace Aurochses.Xunit.Selenium.Tests
         public void Validate_Values()
         {
             // Arrange & Act & Assert
-            foreach (var value in Enum.GetValues(typeof(SeleniumWebDriverType)).Cast<SeleniumWebDriverType>())
-            {
-                switch (value)
+            Assert.Equal(
+                new[]
                 {
-                    case SeleniumWebDriverType.Edge:
-                    {
-                        Assert.Equal(0, (int) value);
-                        break;
-                    }
-                    case SeleniumWebDriverType.Firefox:
-                    {
-                        Assert.Equal(1, (int) value);
-                        break;
-                    }
-                    case SeleniumWebDriverType.GoogleChrome:
-                    {
-                        Assert.Equal(2, (int) value);
-                        break;
-                    }
-                    case SeleniumWebDriverType.InternetExplorer:
-                    {
-                        Assert.Equal(3, (int) value);
-                        break;
-                    }
-                    default:
-                    {
-                        throw new ArgumentOutOfRangeException(nameof(value), value, "Invalid enum value.");
-                    }
-                }
-            }
+                    SeleniumWebDriverType.Edge,
+                    SeleniumWebDriverType.Firefox,
+                    SeleniumWebDriverType.GoogleChrome,
+                    SeleniumWebDriverType.InternetExplorer
+                },
+                Enum.GetValues(typeof(SeleniumWebDriverType)).Cast<SeleniumWebDriverType>()
+            );
         }
     }
 }
